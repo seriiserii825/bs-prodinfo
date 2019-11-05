@@ -6707,6 +6707,7 @@ p {
 	height: 100%;
 	background-image: url("../i/main-slider/fs.webp");
 	background-repeat: no-repeat;
+	z-index: -1;
 }
 
 @media screen and (max-width: 860px) {
