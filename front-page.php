@@ -79,8 +79,7 @@ get_header(); ?>
         </div>
     </div>
 </section>
-<section class="section member dark"
-         style="background-image: url('<?php echo get_template_directory_uri(); ?>/site/assets/i/members/members_bg.jpg')">
+<section class="section member dark" id="js-members-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/site/assets/i/members/members_bg.jpg')">
     <header class="section__header">
         <h2 class="section__title"><?php echo carbon_get_theme_option('crb_members_title' . get_lang()); ?></h2>
         <h4 class="section__subtitle"><?php echo carbon_get_theme_option('crb_site_title'); ?></h4>
@@ -99,7 +98,7 @@ get_header(); ?>
     </div>
 </section>
 
-<section class="section directions">
+<section class="section directions" id="js-directions-section">
     <header class="section__header">
         <h2 class="section__title"><?php echo carbon_get_theme_option('crb_directions_title' . get_lang()); ?></h2>
         <h4 class="section__subtitle"><?php echo carbon_get_theme_option('crb_site_title'); ?></h4>
